@@ -35,3 +35,7 @@ model = Pipeline([
     ('vectorizer', CountVectorizer(tokenizer=tokenize_and_stem)),
     ('clasifier', MultinomialNB())
 ])
+model.fit(x,y)
+
+#funciones
+
